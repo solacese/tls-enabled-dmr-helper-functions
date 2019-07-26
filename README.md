@@ -23,18 +23,21 @@ For help setting up the PubSub+ docker container configurations, you can check o
 
 ## Terminology
 
-If you're not familiar with the terms Event Mesh or DMR, or don't feel comfortable enough to get started, check out [What's an Event Mesh?](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody).   
-If you'd like to learn about DMR, the technology that powers an Event Mesh possible, read up about it on the Solace website [here](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody).
+If you're not familiar with the terms Event Mesh or DMR, check out:
+- [What's an Event Mesh?](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody)  
+- [DMR Overview](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody)
 
 ## Visual Aids 
 
 If you're reading this guide, it'll help to have a visual in your mind before you jump in and try to get these scripts to work.  
-
+</br>
+   
 Example of a hybrid cloud Event Mesh.
 ![img not found](/docs/event-mesh-simple.png "Example Hybrid Cloud Event Mesh")
-
-Example topology of a simple DMR configuration
-![img not found](/docs/dmr-simple-config.png "Example DMR Configuration Structure")
+</br>   
+      
+Example topology of a simple DMR configuration   
+![img not found](/docs/dmr-simple-config.png "Example DMR Configuration Structure")   
 
 ## Getting Started
 
