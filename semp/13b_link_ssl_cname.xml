@@ -1,0 +1,18 @@
+<!-- routing dynamic-message-routing cluster __CLUSTER__ link __LINK__ ssl trusted-common-name name __CNAME__ -->
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <link>
+                    <remote-node-name>__LINK__</remote-node-name>
+                    <ssl>
+                        <trusted-common-name>
+                            <common-name>__CNAME__</common-name>
+                        </trusted-common-name>
+                    </ssl>
+                </link>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

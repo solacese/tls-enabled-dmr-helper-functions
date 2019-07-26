@@ -1,0 +1,11 @@
+<!-- message-vpn __VPN__ dynamic-message-routing no shutdown -->
+<rpc semp-version="soltr/9_0VMR">
+    <message-vpn>
+        <vpn-name>__VPN__</vpn-name>
+        <dynamic-message-routing>
+            <no>
+                <shutdown></shutdown>
+            </no>
+        </dynamic-message-routing>
+    </message-vpn>
+</rpc>

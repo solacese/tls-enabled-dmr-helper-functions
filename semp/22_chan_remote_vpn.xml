@@ -1,0 +1,16 @@
+<!-- message-vpn __VPN__ dynamic-message-routing dmr-bridge __REMOTECLUSTER__ remote message-vpn __REMOTEVPN__ -->
+<rpc semp-version="soltr/9_0VMR">
+    <message-vpn>
+        <vpn-name>__VPN__</vpn-name>
+        <dynamic-message-routing>
+            <dmr-bridge>
+                <remote-node-name>__REMOTECLUSTER__</remote-node-name>
+                <remote>
+                    <message-vpn>
+                        <vpn-name>__REMOTEVPN__</vpn-name>
+                    </message-vpn>
+                </remote>
+            </dmr-bridge>
+        </dynamic-message-routing>
+    </message-vpn>
+</rpc>

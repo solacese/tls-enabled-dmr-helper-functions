@@ -1,0 +1,13 @@
+<!-- routing dynamic-message-routing cluster __CLUSTER__ no shutdown -->
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <no>
+                    <shutdown></shutdown>
+                </no>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

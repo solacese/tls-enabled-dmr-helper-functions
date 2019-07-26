@@ -1,0 +1,20 @@
+<!-- routing dynamic-message-routing cluster __CLUSTER__ link __LINK__ authentication basic no aes-password -->
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <link>
+                    <remote-node-name>__LINK__</remote-node-name>
+                    <authentication>
+                        <basic>
+                            <no>
+                                <aes-password></aes-password>
+                            </no>
+                        </basic>
+                    </authentication>
+                </link>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

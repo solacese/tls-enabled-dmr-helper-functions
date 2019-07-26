@@ -1,0 +1,10 @@
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <shutdown></shutdown>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

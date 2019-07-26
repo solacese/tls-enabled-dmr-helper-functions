@@ -1,0 +1,15 @@
+<!-- routing dynamic-message-routing cluster __CLUSTER__ create link __LINK__ -->
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <create>
+                    <link>
+                        <remote-node-name>__LINK__</remote-node-name>
+                    </link>
+                </create>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

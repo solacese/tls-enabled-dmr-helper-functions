@@ -1,0 +1,7 @@
+<rpc semp-version="soltr/9_0VMR">
+    <show>
+        <bridge>
+            <bridge-name-pattern>#cluster:*</bridge-name-pattern>
+        </bridge>
+    </show>
+</rpc>

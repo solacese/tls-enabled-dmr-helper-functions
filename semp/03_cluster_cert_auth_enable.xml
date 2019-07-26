@@ -1,0 +1,17 @@
+<!-- routing dynamic-message-routing cluster __CLUSTER__ authentication client-certificate no shutdown -->
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <authentication>
+                    <client-certificate>
+                        <no>
+                            <shutdown></shutdown>
+                        </no>
+                    </client-certificate>
+                </authentication>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

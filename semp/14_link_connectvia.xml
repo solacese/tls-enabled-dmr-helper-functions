@@ -1,0 +1,16 @@
+<!-- routing dynamic-message-routing cluster __CLUSTER__ link __LINK__ connect-via gcedmr -->
+<rpc semp-version="soltr/9_0VMR">
+    <routing>
+        <dynamic-message-routing>
+            <cluster>
+                <cluster-name>__CLUSTER__</cluster-name>
+                <link>
+                    <remote-node-name>__LINK__</remote-node-name>
+                    <connect-via>
+                        <addr-port>__ADDR__</addr-port>
+                    </connect-via>
+                </link>
+            </cluster>
+        </dynamic-message-routing>
+    </routing>
+</rpc>

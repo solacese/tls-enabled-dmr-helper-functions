@@ -1,0 +1,8 @@
+__CLUSTER__
+__LINK__
+__ADDR__
+__CHAN__
+__CERT__
+__VPN__
+__REMOTEVPN__
+__REMOTECLUSTER__
