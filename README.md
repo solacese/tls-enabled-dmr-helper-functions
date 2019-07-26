@@ -21,14 +21,20 @@ For help setting up the certificates, you can check out [TLS Helper Scripts](htt
 
 For help setting up the PubSub+ docker container configurations, you can check out [a non-existent link](google.com).
 
-## What's an Event Mesh?  What's Dynamic Message Routing (DMR)?
+## Terminology
 
-If you're reading this guide, it'll help to have a visual in your mind before you jump in and try to get these scripts to work.  This image shows an example configuration structrure for a three cluster Event Mesh.
+If you're not familiar with the terms Event Mesh or DMR, or don't feel comfortable enough to get started, check out [What's an Event Mesh?](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody).   
+If you'd like to learn about DMR, the technology that powers an Event Mesh possible, read up about it on the Solace website [here](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody).
 
-![img not found](/docs/DMR-config-structure.png "Example DMR Configuration Structure")
+## Visual Aids 
 
-If you're not familiar with these terms, or you still don't feel comfortable enough to get started, read up on DMR on the Solace website [here](https://docs.solace.com/Overviews/DMR-Overview.htm#contentBody).
+If you're reading this guide, it'll help to have a visual in your mind before you jump in and try to get these scripts to work.  
 
+Example of a hybrid cloud Event Mesh.
+![img not found](/docs/event-mesh-simple.png "Example Hybrid Cloud Event Mesh")
+
+Example topology of a simple DMR configuration
+![img not found](/docs/dmr-simple-config.png "Example DMR Configuration Structure")
 
 ## Getting Started
 
@@ -48,7 +54,7 @@ This function uses the provided host to send commands via SEMP (Solace Element M
 
 `create_channel <host> <local-msg-vpn> <remote-cluster> <remote-msg-vpn>`
 
-This function uses the provided host to send commands via SEMP (Solace Element Management Protocol) to create a channel between the provided local-msg-vpn and the provided remote-msg-vpn on the provided remote-cluster.  
+This function uses the provided host to send commands via SEMP (Solace Element Management Protocol) to create a channel between the provided local message vpn and the provided remote message vpn on the provided remote cluster.  
 
 ### Example Scripts
 
